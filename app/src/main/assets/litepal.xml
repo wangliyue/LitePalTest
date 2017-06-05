@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="BookStore"></dbname>
+    <version value="4"></version>   <!-- 数据表有变化，需要升级版本号 -->
+
+    <list>
+        <mapping class="com.example.litepaltest.entity.Book"></mapping>
+        <mapping class="com.example.litepaltest.entity.Category"></mapping>
+    </list>
+</litepal>
